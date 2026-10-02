@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-color: rgb(249, 214, 249);
+  align-items: center;
+  background  : linear-gradient(135deg #2a0a5e 0%, #4b1291 50%, #7a1f4a 100%);
+}
+
+body {
+  background:
+    linear-gradient(rgba(255,255,255,0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.12) 1px, transparent 1px),
+    linear-gradient(135deg, #2a0a5e 0%, #4b1291 50%, #7a1f4a 100%);
+
+  background-size: 20px 20px, 20px 20px, 100% 100%;
+}
+
+header{
+  display: flex;
+  gap: 70px;
+  padding: 25px 70px;
+  color: orange;
+}
+button{
+  margin-left: auto;
+  border-radius: 30px ;
+padding: 4px 15px;
+background-color: transparent;
+color: white;
+border: solid red;
+border-width: 1px;
+
+}
+
+.text{
+  padding: 6px 10px;
+  margin-left: 60px;
+}
+
+.text h2{
+  letter-spacing: 5px;
+  color: white;
+  font-weight: 400;
+}
+
+.text h1{
+  font-size: 60px;
+  transform: scaleY(1.5);
+  font-family: sans-serif;
+  color: orange;
+}
+
+.text button{
+  letter-spacing: 5px;
+  color: white;
+  margin-top: 3px;
+  border: solid orange;
+  border-width: 1.5px;
+  margin-bottom: 10px;
+}
+
+.text p{
+  line-height: 0.7;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-size: 10px;
+  color: white;
+}
+
+#button{
+  padding: 8px 10px;
+  margin-left: 110px;
+  color: white;
+  margin-top: 10px;
+  background-color: orange;
+}
+
+.image img{
+  height: auto;
+  width: 400px;
+  
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 35px;
+}
+
+
+
+
+
+
